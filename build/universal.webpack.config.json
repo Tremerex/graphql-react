@@ -1,0 +1,6 @@
+{
+	"server": {
+		"input": "./server/index.js",
+		"output": "./public/server/index.js"
+	}
+}

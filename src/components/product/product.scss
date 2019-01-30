@@ -1,0 +1,24 @@
+.container {
+  margin: 0;
+  .pageHeader {
+    color: #fff;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+    padding: 2rem 2rem;
+    & > .title {
+      display: flex;
+      font-size: 3.25rem;
+      font-weight: bold;
+      justify-content: center;
+      align-items: center;
+      padding: 6rem;
+    }
+  }
+  & > div ul.nodeList {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+  }
+}
